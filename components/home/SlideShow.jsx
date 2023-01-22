@@ -1,0 +1,61 @@
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+import Image from "next/image";
+import { motion } from "framer-motion";
+
+const SlideShow = () => {
+    return (
+        <section className="relative pt-14 pb-28 text-gray-400 bg-gray-700 body-font">
+          <div className="leading-none absolute top-0 left-0 w-full overflow-hidden">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="#111827"></path>
+    </svg>
+</div>
+          <div className="leading-none rotate-180 absolute bottom-0 left-0 w-full overflow-hidden">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#111827"></path>
+    </svg>
+</div>
+        <div className="  px-5 py-24 mx-auto flex flex-wrap  md:px-40 md:justify-center">
+        <motion.div
+     initial={{  y: 100,opacity:0}}
+     whileInView={{ y: 0,opacity:1 }}
+     viewport={{ once: true }}
+     transition={{ duration: 0.8 }} className="flex w-full mb-20 flex-wrap">
+            <h1 className="sm:text-4xl text-2xl font-bold title-font text-white lg:w-1/3 lg:mb-0 mb-4 font-heading ">Companies that<br/> <span className="text-green-500"> trust adsbook</span></h1>
+            <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
+          </motion.div>
+          <motion.div
+     initial={{  y: 100,opacity:0}}
+     whileInView={{ y: 0,opacity:1 }}
+     viewport={{ once: true }}
+     transition={{ duration: 0.8 }} className="flex flex-wrap md:-m-2 -m-1">
+            <div className="flex flex-wrap w-1/2">
+              <div className="md:p-2 p-1 w-1/2">
+                <img alt="gallery" className="w-full object-cover h-full object-center block" src="/projects/project1.jpg"/>
+              </div>
+              <div className="md:p-2 p-1 w-1/2">
+                <img alt="gallery" className="w-full object-cover h-full object-center block" src="/projects/project2.jpg"/>
+              </div>
+              <div className="md:p-2 p-1 w-full">
+                <img alt="gallery" className="w-full h-full object-contain object-center block" src="/projects/project3.jpg"/>
+              </div>
+            </div>
+            <div className="flex flex-wrap w-1/2">
+              <div className="md:p-2 p-1 w-full">
+                <img alt="gallery" className="w-full h-full object-cover object-center block" src="/projects/project4.jpg"/>
+              </div>
+              <div className="md:p-2 p-1 w-1/2">
+                <img alt="gallery" className="w-full object-cover h-full object-center block" src="/projects/project5.jpg"/>
+              </div>
+              <div className="md:p-2 p-1 w-1/2">
+                <img alt="gallery" className="w-full object-cover h-full object-center block" src="/projects/project6.jpg"/>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+        )
+}
+
+export default SlideShow
