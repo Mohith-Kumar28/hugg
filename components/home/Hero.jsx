@@ -7,7 +7,7 @@ import Image from 'next/image'
 const Hero = () => {
     return (
         <>
-      <section className="pb-20 relative text-gray-300 bg-gray-900 body-font">
+      <section className="pb-20 min-h-screen relative text-gray-300 bg-gray-900 body-font">
       <div className="z-40 leading-none absolute bottom-0 left-0 w-full overflow-hidden">
    
       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
