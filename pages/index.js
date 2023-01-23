@@ -40,7 +40,9 @@ export default function Home() {
            whileHover={{ scale: 1.2 }}
            whileTap={{ scale: 0.9 }}
            transition={{ type: "spring", stiffness: 400, damping: 15 }} >
-      <Link href="https://wa.me/7799444494" target="_blank" className="  shadow-xl">
+           
+      <Link href={`whatsapp://send?phone=+91${process.env.NEXT_PUBLIC_SUPPORT_NUMBER}`} target="_blank" className="shadow-xl">
+      {/* <Link href="https://wa.me/7799444494" target="_blank" className="  shadow-xl"> */}
                    <Image
                     className=" h-20 w-auto "
                     src="/assets/whatsApp.png"

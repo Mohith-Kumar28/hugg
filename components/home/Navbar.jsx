@@ -56,7 +56,7 @@ const Navbar = () => {
                   <Link href="/">
                    <Image
                     className=" h-12 w-auto "
-                    src="/assets/logoBlue.png"
+                    src="/assets/logoAnim.gif"
                     width={100}
                     height={100}
                     alt="ok"

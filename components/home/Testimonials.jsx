@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 const Testimonials = () => {
     return (
         <section className="text-gray-400 bg-gray-900 body-font">
-  <div className="container px-5 py-24 mx-auto overflow-hidden">
+  <div className="container px-5 md:px-20 py-24 mx-auto overflow-hidden">
   <motion.h1
        initial={{ y:100, opacity: 0 }}
        whileInView={{ y:0,opacity: 1 }}
@@ -24,7 +24,7 @@ const Testimonials = () => {
             <img alt="testimonial" src="https://dummyimage.com/106x106" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
             <span className="flex-grow flex flex-col pl-4">
               <span className="title-font font-medium text-white">Holden Caulfield</span>
-              <span className="text-gray-500 text-sm">UI DEVELOPER</span>
+              <span className="text-gray-500 text-sm">Role</span>
             </span>
           </a>
         </div>
@@ -43,7 +43,7 @@ const Testimonials = () => {
             <img alt="testimonial" src="https://dummyimage.com/107x107" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
             <span className="flex-grow flex flex-col pl-4">
               <span className="title-font font-medium text-white">Alper Kamu</span>
-              <span className="text-gray-500 text-sm">DESIGNER</span>
+              <span className="text-gray-500 text-sm">Role 2</span>
             </span>
           </a>
         </div>

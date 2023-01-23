@@ -4,8 +4,14 @@ import { motion } from "framer-motion"
 
 const Team = () => {
     return (<>
-        <section className="overflow-hidden relative text-gray-300 font-base bg-gray-900 body-font">
-          <Image src="/assets/background/zodiac.jpg" fill className="opacity-25"/>
+        <section className="overflow-hidden pt-28 relative text-gray-300 font-base bg-gray-900 body-font">
+        <div className="z-40 leading-none  absolute top-0 left-0 w-full overflow-hidden">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#374151"></path>
+    </svg>
+</div>
+
+          <Image src="/assets/background/zodiac.jpg" fill className="opacity-20"/>
 
         <div className="container px-5 py-14 mx-auto  md:px-20">
         <motion.div
@@ -83,7 +89,7 @@ const Team = () => {
         </div>
       </section>
 
-      <section className="pt-6 pb-8 relative text-gray-400 bg-gray-700 body-font">
+      <section className="pt-6 pb-8 relative text-gray-300 bg-gray-700 body-font">
       <div className="absolute top-0 left-0 w-full overflow-hidden">
       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#111827"></path>
@@ -102,7 +108,7 @@ const Team = () => {
      viewport={{ once: true }}
      transition={{ duration: 1.2 }} className="text-center lg:w-2/3 w-full pb-12">
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-heading font-bold text-white"><span className="text-green-500"> MSME </span>registered</h1>
-      <p className="leading-relaxed mb-8">The Ministry of Micro, Small and Medium Enterprises is the ministry in the Government of India. It is the apex executive body for the formulation and administration of rules, regulations and laws relating to micro, small and medium enterprises in India.</p>
+      <p className="leading-relaxed mb-8 ">The Ministry of Micro, Small and Medium Enterprises is the ministry in the Government of India. It is the apex executive body for the formulation and administration of rules, regulations and laws relating to micro, small and medium enterprises in India.</p>
       <div className="flex justify-center">
         <Link href="https://msme.gov.in/">
         <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Visit MSME website</button>
@@ -114,13 +120,13 @@ const Team = () => {
      initial={{  y: 100,opacity:0}}
      whileInView={{ y: 0,opacity:1 }}
      viewport={{ once: true }}
-     transition={{ duration: 1.4 }} className="relative rounded-xl w-5/6 mb-14">
+     transition={{ duration: 1.4 }} className="shadow-2xl shadow-blue-800 relative rounded-xl w-5/6 mb-14">
     <Image height={200} width={200} className=" w-full z-10 relative  object-cover object-center rounded-xl" alt="hero" src="/assets/msmeCertificate.jpg"/>
 
     {/* <div className="bg-green-500/40 w-full h-full absolute rounded-lg p-8 top-0  "></div> */}
-    <div className="bg-green-500/40 w-full h-full absolute rounded-lg  top-5  "></div>
-      <div className="bg-green-500/25 w-full h-full absolute rounded-lg scale-95  top-12  "></div>
-      <div className="bg-green-500/10 w-full h-full absolute rounded-lg scale-90 top-20  "></div>
+    <div className="bg-blue-500/50 w-full h-full absolute rounded-lg  top-5  "></div>
+      <div className="bg-blue-500/20 w-full h-full absolute rounded-lg scale-95  top-12  "></div>
+      <div className="bg-blue-500/10 w-full h-full absolute rounded-lg scale-90 top-20  "></div>
 
     </motion.div>
  </div>

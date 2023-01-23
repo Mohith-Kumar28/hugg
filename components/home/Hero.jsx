@@ -7,7 +7,13 @@ import Image from 'next/image'
 const Hero = () => {
     return (
         <>
-      <section className="relative text-gray-400 bg-gray-900 body-font">
+      <section className="pb-20 relative text-gray-300 bg-gray-900 body-font">
+      <div className="z-40 leading-none absolute bottom-0 left-0 w-full overflow-hidden">
+   
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M892.25 114.72L0 0 0 120 1200 120 1200 0 892.25 114.72z" fill="#374151"></path>
+    </svg>
+</div>
       <Image src="/assets/background/heroZodiac.jpg" fill className="opacity-[8%] object-cover"/>
 
   <div className=" md:px-32 mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
@@ -19,7 +25,7 @@ const Hero = () => {
       <h1 className="font-heading title-font sm:text-5xl text-3xl mb-4 font-medium text-white">Get more<br/> customers by
         <br className=""/><span className="text-green-500"> predicting future</span>
       </h1>
-      <p className="mb-8 leading-relaxed">Get a proven process and grow your business by getting new clients consistently from Facebook, Instagram and What'sApp.</p>
+      <p className="mb-8 leading-relaxed font-medium">Get a proven process and grow your business by getting new clients consistently from Facebook, Instagram and What'sApp.</p>
       <div className="flex justify-center">
       <motion.button
            whileHover={{ scale: 1.2 }}
