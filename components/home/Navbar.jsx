@@ -55,8 +55,8 @@ const Navbar = () => {
                   /> */}
                   <Link href="/">
                    <img
-                    className=" h-12 w-auto "
-                    src="/assets/logoAnim.gif"
+                    className=" h-14 w-auto "
+                    src="/assets/huggLogo.png"
                     width={100}
                     height={100}
                     alt="ok"

@@ -11,7 +11,7 @@ const Team = () => {
     </svg>
 </div>
 
-          <Image src="/assets/background/zodiac.jpg" fill className="opacity-20"/>
+          {/* <Image src="/assets/background/zodiac.jpg" fill className="opacity-20"/> */}
 
         <div className="container px-5 py-14 mx-auto  md:px-20">
         <motion.div
@@ -89,7 +89,7 @@ const Team = () => {
         </div>
       </section>
 
-      <section className="pt-6 pb-8 relative text-gray-300 bg-gray-700 body-font">
+      {/* <section className="pt-6 pb-8 relative text-gray-300 bg-gray-700 body-font">
       <div className="absolute top-0 left-0 w-full overflow-hidden">
       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#111827"></path>
@@ -111,7 +111,7 @@ const Team = () => {
       <p className="leading-relaxed mb-8 ">The Ministry of Micro, Small and Medium Enterprises is the ministry in the Government of India. It is the apex executive body for the formulation and administration of rules, regulations and laws relating to micro, small and medium enterprises in India.</p>
       <div className="flex justify-center">
         <Link href="https://msme.gov.in/">
-        <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Visit MSME website</button>
+        <button className="inline-flex  bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Visit MSME website</button>
         </Link>
       </div>
     </motion.div>
@@ -123,14 +123,15 @@ const Team = () => {
      transition={{ duration: 1.4 }} className="shadow-2xl shadow-blue-800 relative rounded-xl w-5/6 mb-14">
     <Image height={200} width={200} className=" w-full z-10 relative  object-cover object-center rounded-xl" alt="hero" src="/assets/msmeCertificate.jpg"/>
 
-    {/* <div className="bg-green-500/40 w-full h-full absolute rounded-lg p-8 top-0  "></div> */}
+   
     <div className="bg-blue-500/50 w-full h-full absolute rounded-lg  top-5  "></div>
       <div className="bg-blue-500/20 w-full h-full absolute rounded-lg scale-95  top-12  "></div>
       <div className="bg-blue-500/10 w-full h-full absolute rounded-lg scale-90 top-20  "></div>
 
     </motion.div>
  </div>
-</section>
+</section> */}
+     
       </>
     )
 }

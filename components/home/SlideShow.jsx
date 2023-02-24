@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const SlideShow = () => {
     return (
-        <section className="relative pt-0 pb-0 text-gray-400 bg-gray-700 body-font">
+        <section className="relative pt-0 pb-0  bg-gray-700 body-font">
        
           {/* <div className="leading-none rotate-180 absolute bottom-0 left-0 w-full overflow-hidden">
           <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -18,7 +18,7 @@ const SlideShow = () => {
      whileInView={{ y: 0,opacity:1 }}
      viewport={{ once: true }}
      transition={{ duration: 0.8 }} className="flex w-full mb-20 flex-wrap">
-            <h1 className="sm:text-4xl text-2xl font-bold title-font text-white lg:w-1/3 lg:mb-0 mb-4 font-heading ">Companies that<br/> <span className="text-green-500"> trust adsbook</span></h1>
+            <h1 className="sm:text-4xl text-2xl font-bold title-font text-white lg:w-1/3 lg:mb-0 mb-4 font-heading ">Brands Trusts Us<br/> <span className="text-green-500"> trust Hugg</span></h1>
             <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
           </motion.div>
           <motion.div
@@ -28,24 +28,24 @@ const SlideShow = () => {
      transition={{ duration: 0.8 }} className="flex flex-wrap md:-m-2 -m-1">
             <div className="flex flex-wrap w-1/2">
               <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block" src="/projects/project1.jpg"/>
+                <img alt="gallery" className="w-full object-cover h-full object-center block" src="/huggProjects/project1.jpeg"/>
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block" src="/projects/project2.jpg"/>
+                <img alt="gallery" className="w-full object-cover h-full object-center block" src="/huggProjects/project2.jpeg"/>
               </div>
               <div className="md:p-2 p-1 w-full">
-                <img alt="gallery" className="w-full h-full object-contain object-center block" src="/projects/project3.jpg"/>
+                <img alt="gallery" className="w-full h-full object-contain object-center block" src="/huggProjects/project3.jpeg"/>
               </div>
             </div>
             <div className="flex flex-wrap w-1/2">
               <div className="md:p-2 p-1 w-full">
-                <img alt="gallery" className="w-full h-full object-cover object-center block" src="/projects/project4.jpg"/>
+                <img alt="gallery" className="w-full h-full object-cover object-center block" src="/huggProjects/project4.jpeg"/>
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block" src="/projects/project5.jpg"/>
+                <img alt="gallery" className="w-full object-cover h-full object-center block" src="/huggProjects/project5.jpeg"/>
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block" src="/projects/project6.jpg"/>
+                <img alt="gallery" className="w-full object-cover h-full object-center block" src="/huggProjects/project6.jpeg"/>
               </div>
             </div>
           </motion.div>
