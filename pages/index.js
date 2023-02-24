@@ -28,9 +28,9 @@ export default function Home() {
       </Head>
       <Navbar/>
       <Hero/>
+      <Services/> 
       <SlideShow/>
       {/* <Team/> */}
-      <Services/> 
      {/* <ContactUs/> */}
       <Testimonials/>
       <Footer/>
