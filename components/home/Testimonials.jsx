@@ -28,7 +28,7 @@ const Testimonials = () => {
               <span className="title-font font-medium text-white">By Anonymus</span>
               <span className="text-gray-500 text-sm">Role</span>
             </span> 
-          </a>
+          </a> 
         </div>
       </motion.div>
       <motion.div
