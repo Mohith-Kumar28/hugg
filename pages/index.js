@@ -31,7 +31,7 @@ export default function Home() {
       <SlideShow/>
       <Team/>
       <Services/> 
-     <ContactUs/>
+     {/* <ContactUs/> */}
       <Testimonials/>
       <Footer/>
 
